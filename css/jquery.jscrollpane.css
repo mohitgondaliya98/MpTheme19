@@ -1,0 +1,24 @@
+.jspContainer { overflow: hidden; position: relative; }
+.jspPane { position: absolute; }
+.jspVerticalBar { position: absolute; top: 0; right: 0; width: 16px; height: 100%; background: red; }
+/*.jspHorizontalBar { position: absolute; top: 0; right: 0; height: 40px;}*/
+.jspCap { display: none; }
+.jspHorizontalBar .jspCap { float: left; }
+.jspTrack { background: #dde; position: relative; display:none;}
+.jspDrag { background: #bbd; position: relative; top: 0; left: 0; cursor: pointer; }
+.jspHorizontalBar .jspTrack, .jspHorizontalBar .jspDrag { float: left; height: 100%; }
+.jspArrow {text-indent: -20000px; display: block; cursor: pointer; padding: 0; margin: 0; background: #FFF; }
+.jspArrow.jspDisabled { cursor: default;}
+.jspVerticalBar .jspArrow { height: 40px; }
+.jspHorizontalBar .jspArrow { width: 25px; float: left; height: 100%; padding: 0; position: absolute; bottom: 1px;}
+.jspHorizontalBar .jspArrow.jspArrowRight{background:#f9f9f9 url(../images/tab-next.png) center center no-repeat; right: 0;}
+.jspHorizontalBar .jspArrow.jspArrowLeft{background:#f9f9f9 url(../images/tab-previous.png) center center no-repeat; left:0;}
+.jspHorizontalBar .jspArrow:hover{background-color: #f3f3f3;}
+.jspVerticalBar .jspArrow:focus { outline: none; }
+.jspCorner { background: #eeeef4; float: left; height: 100%; display:none!important;}
+
+.jspHorizontalBar .jspArrow.jspDisabled.jspArrowRight{background:#f9f9f9 url(../images/tab-next-dis.png) center center no-repeat;}
+.jspHorizontalBar .jspArrow.jspDisabled.jspArrowLeft{background:#f9f9f9 url(../images/tab-previous-dis.png) center center no-repeat;}
+
+
+
